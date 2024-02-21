@@ -1,0 +1,19 @@
+body{
+  background-color: black;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* VH it stands for viewport0 height // best practices for web to adapts all types of screen/ viewports */
+  overflow: hidden; /* any content that extent the boundries will be hide */
+}
+
+.magic{
+  background-color: beige;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  border: 0;
+  border-color: aqua;
+  padding: 12px 20px;
+}
